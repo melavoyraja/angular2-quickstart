@@ -1,8 +1,10 @@
 {
+// <<<<<<< HEAD
   "name": "angular2-quickstart",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "node --use_strict start.js",
+    // "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",
@@ -34,5 +36,17 @@
     "lite-server": "^2.2.0",
     "typescript": "^1.8.10",
     "typings":"^1.0.4"
-  }
+  },
+// =======
+  // "name": "openshift-cartridge-nodejs-template",
+  // "version": "1.0.1",
+  "description": "Custom Node.js cartridge for OpenShift - sample application",
+  "private": true,
+  "main": "start.js",
+  // "scripts": {
+  //   "start": "node --use_strict start.js"
+  // },
+  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>"
+  // "license": "ISC"
+// >>>>>>> ac2c85939443994931390e082c9d20279f2b4384
 }
